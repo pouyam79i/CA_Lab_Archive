@@ -1,19 +1,10 @@
 ----------------------------------------------------------------------------------
 -- Create Date:    08:15:21 10/01/2021 
 -- Designer Name:  Pouya Mohammadi		
--- Module Name:    and_gate - Structural 
+-- Module Name:    test_bench
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity test_bench is
 end test_bench;
