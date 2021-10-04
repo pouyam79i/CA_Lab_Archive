@@ -32,5 +32,5 @@ architecture structure of full_adder is
 begin
 	half_adder_instance_0 : half_adder port map (in1=>I1, in2=>I2, out1=>internal_signal_0, out2=>internal_signal_1);
 	half_adder_instance_1 : half_adder port map (in1=>internal_signal_0, in2=>Cin, out1=>Sum, out2=>internal_signal_2);
-	or_gate_instance_0    : or_gate port map 	(A=>internal_signal_1, B=>internal_signal_2, C=>Cout);
+	or_gate_instance_0    : or_gate port map    (A=>internal_signal_1, B=>internal_signal_2, C=>Cout);
 end structure;
