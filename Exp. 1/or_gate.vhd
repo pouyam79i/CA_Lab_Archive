@@ -9,7 +9,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity or_gate is
 port(
 	A, B: in std_logic;
-	C	: out std_logic
+	C   : out std_logic
 );
 end or_gate;
 

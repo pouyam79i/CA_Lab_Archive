@@ -9,7 +9,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity half_adder is
 port(
 	in1, in2  : in std_logic;
-	out1, out2:	out std_logic
+	out1, out2: out std_logic
 );
 end half_adder;
 

@@ -9,7 +9,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity xor_gate is
 port(
 	A, B: in std_logic;
-	C	: out std_logic
+	C   : out std_logic
 );
 end xor_gate;
 
